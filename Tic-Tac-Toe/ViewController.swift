@@ -43,7 +43,6 @@ class ViewController: UIViewController {
         }
         
         playTurn += 1
-        print("\(playTurn)number of Turns")
         
         for combination in winnerCombo {
             if gameSquares[combination[0]] != 0 && gameSquares[combination[0]] == gameSquares[combination[1]] && gameSquares[combination[1]] == gameSquares[combination[2]] {
